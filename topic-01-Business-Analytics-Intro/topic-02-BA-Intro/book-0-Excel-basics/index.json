@@ -1,0 +1,53 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-01",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>In our first set of labs we will be getting familiar with Microsoft Excel, a tool used by many organisations to evaluate daily performance and to make critical strategic and operational decisions.</p>",
+  "folder" : "book-0-Excel-basics",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "#Objectives",
+    "shortTitle": "Lab-01",
+    "contentMd" : "#Objectives\r\n\r\nIn our first set of labs we will be getting familiar with Microsoft Excel, a tool used by many organisations to evaluate daily performance and to make critical strategic and operational decisions.\r\n\r\nThis first lab will briefly review some of the fundamental skills needed to use Excel. This is not meant to be a complete tutorial; many good Excel tutorials can be found online.\r\n"
+    },
+  
+    {
+    "title": "#Using Microsoft Excel",
+    "shortTitle": "01",
+    "contentMd" : "#Using Microsoft Excel\r\n\r\nSpreadsheet software for personal computers has become an indispensable tool for business analysis, particularly for the manipulation of numberical data and the development and analysis of decision models. Some differences exist between 2007 and 2010. If you do use another version you should be able to apply Excel easily to the problems and exercises. In addition it must be noted that Mac versions of Excel do not have the full funcitonality that Windows versions have.\r\n\r\nAlthough Excel has some flaws and limitations from a statistical perspective, its widespread availability makes it the software of choice for many business professionals.\r\n\r\n\r\n##Instructions for working in Walton Building PC Labs:\r\n\r\nIf you are working on the workstations in the IT Building all machines should be installed with Microsoft Excel 2010.\r\n\r\nProceed with the next step of the lab.\r\n\r\n##Instructions for working on your own laptop\r\nYou must have a copy of Microsoft Excel 2010  or newer installed.\r\n\r\n\r\nThere will be addons utilised in future practicals but for the moment the standard installation of Excel is sufficient.\r\nThe student site that supports a book used in this module contains the links to software, along with data files and other materials.\r\n\r\n\r\n- <http://wps.pearsoned.co.uk/ema_ge_evans_statdata_5e/227/58333/14933382.cw/index.html>\r\n"
+    },
+  
+    {
+    "title": "#The Basics",
+    "shortTitle": "02",
+    "contentMd" : "#The Basics\r\n\r\nThis lab assumes you are familiar with the most elementary spreadsheet concepts and procedures:\r\n\r\n- Opening, saving and printing files.\r\n- Moving around a spreadsheet.\r\n- Selecting ranges.\r\n- Inserting/deleting rows and columns\r\n- Entering and editing text, numerical data, and formulas.\r\n- Formatting data.\r\n- Working with text strings.\r\n- Performing basic arithmetic calculations.\r\n- Modifying the appearance of the spreadsheet.\r\n- Sorting data.\r\n\r\n\r\n##File to use\r\n\r\nDownload the following file and open it in Excel\r\n\r\n- [science-engineering.xls](./archives/science-engineering.xlsx)\r\n\r\n##Copying Formulas\r\n\r\nExcel provides several ways of copying formulas to different cells. This is extremely useful in building decision models, because many models require replication of formulas for different periods of time, similar products, and so on.\r\n\r\nOne way is to select the cell with the formula to be copied, click the copy button from the clipboard group on the ribbon (or click Ctrl+C), click on the cell you wish to copy to and click the paste button (or click Ctrl+V).\r\n\r\nYou can also enter a formula into a range of cells by selecting the range of cells typing in the formula and press Ctrl+Enter.\r\nUse the small black square on a selected cell to copy the formula down a column or across a row.\r\n\r\nThe structure of the formula is the same as in the original cell but the cell references have been changed to reflect the relative addresses of the formula in the new cells.\r\n\r\nPractice this using the science engineering data file. Calculate the difference between the jobs in each category from 2000 to 2010.\r\nTo see all of your formulas on a worksheet you can use the Ctrl+` keys to change viewing and hiding formulas.\r\n\r\n\r\nSometimes when you copy a formula you do not want the cell references to change. For example, calculate the percent of the total jobs for each occupation in 2010.\r\n\r\nIn cell E4 enter the formula =C4/$C$12. Then if you copy this formula down column E for the other occupations the numerator will change to reference each occupation but the denominator will still point to cell C12. You should be careful to use relative and absolute addressing appropriately in your models. To convert a relative reference to an absolute one, just press F4 when you are in the cell reference.\r\n\r\n\r\n\r\n#Order of Arithmetic\r\n\r\nExcel uses standard \"PEMDAS\" order of operations for arithmetic.\r\nParentheses, Exponents, Multiplication and Division, Addition and Subtraction.\r\n\r\n~~~\r\n\tParentheses\t(6-1)\r\n\tExponents ^\r\n\tMultiplication *\r\n\tDivision /\r\n\tAddition +\r\n\tSubtraction -\r\n\r\n\r\n\tAssume we want (6-3)(4+2) = 18\r\n\tIn Excel we write =(6-3)*(4+2)\r\n\r\n\tAssume we want (3/5) squared\r\n\tIn Excel we write =(3/5)^2\r\n\r\n~~~\r\n\r\n#Formulas\r\nTo see formula's in a cell you can precede the formula with a apostrophe, then excel will not activate the formula until you remove the apostrophe.\r\n"
+    },
+  
+    {
+    "title": "#Excel charts",
+    "shortTitle": "03",
+    "contentMd" : "#Excel charts\r\n\r\n   Raw data is often hard to interpret, charts and graphs provide a convenient way to visualise data and provide information and insight for making better decisions.\r\n\r\nExcel provides vertical and horizontal bar charts, line charts, pie charts, area charts, scatter plots, three-dimensional charts and many others.\r\n\r\n##Column and Bar charts\r\n\r\nExcel calls vertical bar charts, column charts and horizontal bar charts, bar charts.\r\n\r\nOpen the file:\r\n\r\n- [EEOEmploymentReport](./archives/EEO-Employment-Report.xlsx)\r\n\r\nCreate a column chart for the EEO Employment Report data.\r\n\r\nUse the data for All employees, Men and Women, (rows 4,5 and 6) the chart should show the number of workers in each category.\r\n\r\n![](./img/01.png)\r\n\r\n\r\nWhat does a stacked chart look like?\r\n\r\n##Line charts\r\n\r\nLine charts provide a useful means for displaying data over time. You can plot multiple data series in line charts; however, they can be difficult to interpret if the magnitude of the data values differs greatly.\r\nCreate a line chart for the closing prices in the Excel file SP500\r\n\r\n- [SP500](./archives/SP500.xlsx)\r\n"
+    },
+  
+    {
+    "title": "#More Charts",
+    "shortTitle": "Exercises",
+    "contentMd" : "#More Charts\r\n\r\n- Experiment with the other charts that are available.\r\n- Line charts provide a useful means for displaying data over time.\r\n- Create a line chart for the closing prices in the file SP500.xlsx\r\n- For many types of data, we are interested in understanding the relative proportion of each data source to the total.\r\n- Create a pie chart showing the breakdown of occupations in the Science-engineering.xlsx\r\n"
+    }
+  
+  ]
+  }
+

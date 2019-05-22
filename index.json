@@ -1,0 +1,117 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "course",
+  "title" : "Business Analytics ",
+  "img" : "",
+  "videoid" : "",
+  "objectives" : "<p>Business analytics supports critical decision making in business. It helps to create new knowledge and to draw conclusions on existing models or theories. This module introduces the learner to the fundamental concepts of data analytics. These concepts include; data identification, cleaning, transforming and modelling data for the purpose of analysing and manipulating data to discover relevant information to support decision making. You will conduct statistical analysis, rule generation and modelling in order to discover patterns and create new insights. You will then present and evaluate that analysis using visualisation tools.</p>",
+  "folder" : "BusinessAnalytics-1-2019",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "topics" : [  {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "Introduction to Business Analytics ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Analytics skills are essential for many roles in Software Development today. This topic will introduce you to the concepts, use and application of analytics in todays businesses.</p>",
+  "folder" : "topic-01-Business-Analytics-Intro",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "Module structure and contents ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Details of the topic areas contained within the 12 weeks of business analytics 1 along with details of the CA Exam breakdown.</p>",
+  "folder" : "topic-01-Course-Structure",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "12 week plan for the module ",
+  "img" : "course-structure.png",
+  "videoid" : "none",
+  "objectives" : "<p>12 week plan for the module</p>",
+  "folder" : "talk-1-course-structure",
+  "link" : "course-structure.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "Business Analytics Introduction ",
+  "img" : "talk-1-BA-Intro/BAI.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Introducing the business analytics model, the use of operational analytics in businesses today and the future trends for business analytics.</p>",
+  "folder" : "topic-02-BA-Intro",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Business Analytics  ",
+  "img" : "BAI.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Business Analytics</p>",
+  "folder" : "talk-1-BA-Intro",
+  "link" : "BAI.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-01",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>In our first set of labs we will be getting familiar with Microsoft Excel, a tool used by many organisations to evaluate daily performance and to make critical strategic and operational decisions.</p>",
+  "folder" : "book-0-Excel-basics",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  }
+ ]
+  }
+
